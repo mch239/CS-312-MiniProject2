@@ -1,3 +1,5 @@
+Starting over because server keeps crashing. 
+
 Got the server running, proof of console.log
 I have installed nodejs, express, and axios. 
 Connected github repository. Did practice push. 

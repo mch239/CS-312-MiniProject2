@@ -1,0 +1,144 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    text-align: center;
+    background-color: #5757fcf1;
+}
+
+#titlebar {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5em;
+    color: #fdfdfd;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 3vh;
+}
+
+h1 {
+    font-family: 'Roboto Condensed:', sans-serif;
+    font-size: 2em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+}
+label, a {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 15px solid black;
+    border-radius: 8%;
+}
+
+#jokeform {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+#jokeContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 70%;
+    gap: 50px;
+}
+
+#returnarea {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2vh;
+}
+
+.returnlink {
+    flex: 1;
+}
+
+#firstName, #lastName {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+#submitarea {
+    display: center;
+    margin-top: 3vh;
+}
+
+.button {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #5757fcf1;
+    background: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 12px 20px;
+    text-align:center;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+  }
+  .button:hover {
+    color: black;
+    background: #ffffff
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    #pageTitle {
+        font-size: 3.75em;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    h2 {
+      font-size: 1.2em;
+    }
+    #jokebox {
+      max-width: 100%;
+    }
+    .button {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 10px 16px;
+      }
+  }
